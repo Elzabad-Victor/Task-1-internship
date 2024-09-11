@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Elzabad Victor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Elzabad Victor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Section 1: Image Section -->
+        <header id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <img src="assets/welc.jpg" alt="Portfolio Image">
+        </header>
+
+        <!-- Section 2: About Me Section -->
+        <section id="about">
+            <h2 class="section-heading">About Me</h2>
+            <div class="section-content grid-container">
+                <div class="grid-item">
+                    <h3>Name</h3>
+                    <p>Elzabad Victor</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Location</h3>
+                    <p>Islamabad, Islāmābād, Pakistan</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:elzabadvictor@gmail.com">elzabadvictor@gmail.com</a></p>
+                </div>
+                <div class="grid-item">
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://linkedin.com/in/elzabadvictor">linkedin.com/in/elzabadvictor</a></p>
+                </div>
+                <div class="grid-item">
+                    <h3>Summary</h3>
+                    <p>I have 2 years of total experience in customer support and client relations. Over the past year, I have worked as a Sales Executive and a Customer Support Executive, as well as a 6-week internship as a JavaScript Developer.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Experience</h3>
+                    <ul>
+                        <li>Total Experience: 2 years in customer support and client relations.</li>
+                        <li>Relevant Experience:
+                            <ul>
+                                <li>1 year as a Sales Executive</li>
+                                <li>1 year as a Customer Support Executive</li>
+                                <li>6 weeks as a JavaScript Developer intern at Insafdar</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><strong>Client Interaction:</strong> Strong communication and interpersonal skills.</li>
+                        <li><strong>Issue Resolution:</strong> Experienced in resolving client concerns.</li>
+                        <li><strong>Relationship Management:</strong> Skilled in developing client relationships.</li>
+                        <li><strong>Technical Proficiency:</strong> Proficient in CRM systems and Microsoft Office Suite.</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <h3>Career Highlights</h3>
+                    <ul>
+                        <li><strong>Customer Support Executive:</strong> Provided exceptional support.</li>
+                        <li><strong>Sales Executive:</strong> Delivered tailored solutions to clients.</li>
+                        <li><strong>JavaScript Developer Intern:</strong> Contributed to web development projects.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Contact Me Section -->
+        <section id="contact">
+            <h2 class="section-heading">Contact Me</h2>
+            <div class="section-content contact-info">
+                <p><strong>Email:</strong> <a href="mailto:elzabadvictor@gmail.com">elzabadvictor@gmail.com</a></p>
+                <p><strong>Phone:</strong> +92 XXX XXXX XXX</p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/elzabadvictor">linkedin.com/in/elzabadvictor</a></p>
+                <!-- Feedback Form -->
+                <h3>Feedback Form:</h3>
+                <form id="feedback-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Feedback</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

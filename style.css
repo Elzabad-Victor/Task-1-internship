@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'AlbraBook', Arial, sans-serif; /* Use your custom font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0d7d5; /* Background color */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #332f2f; /* Navbar color */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff; /* Text color for navbar items */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0d3d3; /* Hover color for navbar items */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    background-color: #fff; /* Header background color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: #332f2f; /* Heading color */
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section Styles */
+section {
+    background-color: #f3b2b2; /* Section background color */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.section-heading {
+    font-size: 24px;
+    color: #d9574e; /* Section heading color */
+}
+
+.section-content {
+    margin-bottom: 20px;
+}
+
+/* Grid Layout Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #f0d3d3; /* Background color for grid items */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Form Styles */
+form {
+    background-color: #ded6d6; /* Form background color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #332f2f; /* Label color */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #d9574e; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c7463d; /* Button hover color */
+}
+
+/* Contact Me Section Styles */
+.contact-info a {
+    color: #d9574e; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for hover effects */
+}
+
+.contact-info a:hover {
+    color: #c7463d; /* Darker shade for hover effect */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.contact-info p {
+    margin-bottom: 15px; /* Spacing between paragraphs */
+}
